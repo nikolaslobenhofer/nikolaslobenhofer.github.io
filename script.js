@@ -1,3 +1,5 @@
-document.getElementById("123").addEventListener("click", function() {
-    alert("Button wurde gedrückt!");
-});
+function exit_alert(){
+    alert("Gedrückt")
+}
+document.querySelector('#123').addEventListener('onclick', exit_alert);
+
