@@ -1,5 +1,16 @@
-.moin {
-    width: 100px;
-    height: 100px;
-    background-color: aquamarine;
+.orbit {
+    background-color: whitesmoke;
+}
+.orbit-wrapper {
+    background-color: antiquewhite;
+}
+.orbit-bullets {
+    background-color: rgb(255, 246, 235);
+    line-height: 50px;
+}
+.orbit-controls {
+    background-color: rgb(252, 243, 231);
+    line-height: 50px;
+    margin-top: 5px;
+    margin-bottom: 30px;
 }
