@@ -1,5 +1,10 @@
 function exit_alert(){
     alert("Gedrückt")
+    console.log("test")
 }
-document.getElementById(123).addEventListener('onclick', exit_alert);
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("123").addEventListener("click", exit_alert);
+});
+
+
 
